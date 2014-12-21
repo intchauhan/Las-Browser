@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SetDeviceNumber</class>
+ <widget class="QDialog" name="SetDeviceNumber">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>658</width>
+    <height>328</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>658</width>
+    <height>328</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>658</width>
+    <height>328</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>311</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Double click the device/emulator to work with:</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="lwDeviceEmulatorList">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>611</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>250</y>
+     <width>158</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QPushButton" name="btnDeepRefresh">
+      <property name="text">
+       <string>Deep Refresh</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btnRefresh">
+      <property name="text">
+       <string>Refresh</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>531</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>If the device is not connected, connect now and hit Refresh. In case of an emulator, make sure it is running.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
